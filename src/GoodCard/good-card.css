@@ -1,0 +1,46 @@
+.goodCardContainer {
+    min-width: 250px;
+    /*max-width: 280px;*/
+    height: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    font-family: IRANSans;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.goodCardImageContainer {
+    width: 200px;
+    height: 100px;
+}
+
+.goodCardImage {
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+    align-self: center;
+}
+
+.goodCardDescription {
+    width: 100%;
+    color: #727272;
+    font-size: 14px;
+    word-wrap: break-word;
+    padding-top: 120px;
+}
+
+.goodCardPriceContainer {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.goodCardPrice {
+    font-size: 13px;
+}

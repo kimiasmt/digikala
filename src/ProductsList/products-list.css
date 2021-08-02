@@ -1,0 +1,8 @@
+.goodsPageCardsOnly {
+    padding-top: 10px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top: 10px;
+}
